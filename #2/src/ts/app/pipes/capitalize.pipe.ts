@@ -1,12 +1,15 @@
 import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-  name: "capitalize"
+  name: "capitalize",
+  pure: false,
 })
 
 export class CapitalizePipe implements PipeTransform {
 
   public transform(value: any) {
+
+    console.log("calling transform");
 
     const strValue = String(value);
 
