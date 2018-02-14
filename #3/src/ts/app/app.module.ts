@@ -7,7 +7,6 @@ import { ColorsMutable } from "./services/colors-mutable";
 import { ColorsImmutable } from "./services/colors-immutable";
 import { AppComponent } from "./app.component";
 
-
 import "../../scss/styles.scss";
 
 // const useImmutable = false;

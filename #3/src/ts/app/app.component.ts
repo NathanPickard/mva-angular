@@ -1,7 +1,5 @@
 import { Component, Inject } from "@angular/core";
-
 import { ColorsToken } from "./tokens/colors-token";
-
 import { Logger } from "./services/logger";
 import { Colors } from "./models/colors";
 
